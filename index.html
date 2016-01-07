@@ -3,19 +3,30 @@
   <head>
     <title>Vacation</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" media="screen">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
 
-  <body>
-    <header class="page-header">
-      <div class="container">
-        <ul class="nav nav-pills pull-right btn-group">
-          <li><a class="btn btn-success" href="#">Click Me</a></li>
-          <li><a class="btn btn-danger" href="#">Click Me2</a></li>
-          <li><a class="btn btn-default" href="#">Click Me3</a></li>
-        </ul>
-    </header>
 
+  <body>
+    <div class="navbar navbar-inverse">
+     <div class="container">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+      <div class="collapse navbar-collapse">
+       <ul class="nav navbar-nav navbar-right">
+        <li><a class="active" href="#">Click Me</a></li>
+        <li><a href="#">Click Me2</a></li>
+        <li><a href="#">Click Me3</a></li>
+       </ul>
+      </div>
+     </div>
+    </div>
+
+   <div class="container">
     <div class="container jumbotron">
       <h1>Travel Hawaii</h1>
       <p class="lead">
@@ -94,5 +105,7 @@
  </div>
  </div>
  </div>
+ <script src="http://code.jquery.com/jquery.js"></script>
+ <script src="bootstrap.min.js"></script>
 </body>
 </html>
