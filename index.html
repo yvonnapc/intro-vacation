@@ -10,7 +10,7 @@
 
 
   <body>
-    <div class="navbar navbar-inverse">
+    <div class="navbar navbar-inverse navbar-fixed-top">
      <div class="container">
        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
          <span class="icon-bar"></span>
@@ -36,18 +36,46 @@
      </div>
     </div>
 
-   <div class="container">
-    <div class="container jumbotron">
-      <h1>Travel Hawaii</h1>
-      <p class="lead">
-      Lorem ipsum dolor sit amet, utamur convenire vel ea. An mentitum laboramus mei, falli deleniti interpretaris ex cum. Ut vel novum legimus commune. Mel laoreet petentium periculis at, eum nonumes delicata eu. Id melius maiorum percipitur sea. Eam fuisset menandri eu. Aperiam consetetur ad per, solet putent facete ad sed.
-      </p>
-      <p class="btn-group">
+  <div id="myCarousel" class="carousel slide jumbotron">
+    <div class="container">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
 
-      <a class="btn btn-default btn-lg" href="#">Click Me3</a>
-      <a class="btn btn-success btn-lg" href="#">Click Me3</a>
-      </p>
+        <div class="item active">
+            <h1>Travel Hawaii</h1>
+            <p class="lead">
+            Lorem ipsum dolor sit amet, utamur convenire vel ea. An mentitum laboramus mei, falli deleniti interpretaris ex cum. Ut vel novum legimus commune. Mel laoreet petentium periculis at, eum nonumes delicata eu. Id melius maiorum percipitur sea. Eam fuisset menandri eu. Aperiam consetetur ad per, solet putent facete ad sed.
+            </p>
+            <p class="btn-group">
+              <a class="btn btn-default btn-lg" href="#">Click Me3</a>
+              <a class="btn btn-success btn-lg" href="#">Click Me3</a>
+            </p>
+       </div>
+
+        <div class="item">
+          <img class="carousel-image" src="http://lorempixel.com/400/200/sports/" alt="Sports Photo">
+        </div>
+        <div class="item">
+          <p>Lorem ipsum dolor sit amet, utamur convenire vel ea. An mentitum laboramus mei, falli deleniti interpretaris ex cum. Ut vel novum legimus commune. Mel laoreet petentium periculis at, eum no.
+          </p>
+        </div>
+        <div class="item">
+          <img class="carousel-image" src="http://lorempixel.com/400/200/sports/" alt="Photo">
+        </div>
     </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>
+  </div>
 
   <div class="container">
     <div class="row">

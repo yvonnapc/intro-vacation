@@ -4,3 +4,23 @@
   color: #CE57FF;
   text-align: center;
 }
+
+body {
+  padding-top: 50px;
+}
+
+.carousel-image {
+  width: 100%;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #CE57FF;
+}
+
+.carousel-indicators li {
+  border-color: #222;
+}
